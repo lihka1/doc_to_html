@@ -10,18 +10,21 @@ The minimum prerequisites to run this sample are:
 * pandoc.       To convert the docx to html.Installation instructions at https://pandoc.org/installing.html
 
 The simplest way to install the requirements are as follows: 
+
+#### For parallel
 ````Terminal
 sudo apt-get install parallel
 ````
-For 64-bit Debian and Ubuntu, download  debian package on the [download page](https://github.com/jgm/pandoc/releases/tag/1.19.2.1)
+#### For pandoc
+For 64-bit Debian and Ubuntu, download  debian package on the [download page.](https://github.com/jgm/pandoc/releases/tag/1.19.2.1)
 ````
 sudo dpkg -i $DEB
 ````
-where $DEB is the path to the downloaded deb, will install the pandoc and pandoc-citeproc executables and man pages
+where $DEB is the path to the downloaded deb, will install the pandoc and pandoc-citeproc executables and man pages.
 
 ### Create the following folders
 
-* input_folder.     The directory having the doc files 
+* input_folder.     The directory having the doc files.
 * output_folder.   The directory for storing the output files.
 
 ### Arguments
