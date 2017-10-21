@@ -9,7 +9,7 @@
 # arg2---destination of output folder
 # arg3---no of cores to used
 
-# go to the pdf folder
+# go to the documents folder
 cd $1
 
 # converts each of the PDFs into TIFF images so that tesseract can interact with them
